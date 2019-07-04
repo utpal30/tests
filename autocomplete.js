@@ -318,7 +318,7 @@
           var renderResultsList = _this2.resultsList.render;
           var triggerCondition = queryValue.length > _this2.threshold && queryValue.replace(/ /g, "").length;
           var eventEmitter = function eventEmitter(event, results) {
-            input.dispatchEvent(new Polyfill.CustomEventWrapper("autoComplete", {
+            input.dispatchEvent(new Polyfill.CustomEventWrapper("autoComplete_v1", {
               bubbles: true,
               detail: {
                 event: event,
