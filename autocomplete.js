@@ -392,7 +392,7 @@
     }]);
     return autoComplete_v1;
   }();
-
+  window.autocomplete_v1 = autoComplete_v1; 
   return autoComplete_v1;
 
 })));
